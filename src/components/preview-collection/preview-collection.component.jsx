@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const PreviewCollection = ({title, routeName, items}) => {
     return(
         <div className="collection-preview">
-            <Link to={`/${routeName}`}>
+            <Link to={`/shop/${routeName}`}>
                 <h1 className="title">{title.toUpperCase()}
                 </h1>
             </Link>
